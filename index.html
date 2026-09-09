@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Braian de Freitas Neima — Portfólio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="grain"></div>
+
+<header class="topbar">
+  <span class="prompt">braian@dev<span class="cursor">:~$</span></span>
+  <nav class="topnav">
+    <a href="#sobre">sobre</a>
+    <a href="#skills">skills</a>
+    <a href="#projetos">projetos</a>
+    <a href="#contato">contato</a>
+  </nav>
+</header>
+
+<main>
+
+  <!-- HERO -->
+  <section class="hero" id="topo">
+    <p class="hero-eyebrow">git log --author="Braian" --oneline</p>
+    <h1>Braian de Freitas Neima</h1>
+    <p class="hero-role">Estudante de Ciência da Computação, construindo coisas com Python, Git e um pouco de teimosia.</p>
+    <div class="hero-actions">
+      <a class="btn btn-primary" href="#projetos">ver projetos</a>
+      <a class="btn btn-ghost" href="https://www.linkedin.com/in/braiandev/" target="_blank" rel="noopener">linkedin ↗</a>
+    </div>
+  </section>
+
+  <!-- SOBRE -->
+  <section class="branch" id="sobre">
+    <div class="branch-label">
+      <span class="branch-dot"></span>
+      <span>branch: sobre-mim</span>
+    </div>
+    <div class="branch-body">
+      <h2>Sobre</h2>
+      <p>
+        Estou em formação em Ciência da Computação e construindo, aos poucos, uma base sólida
+        em desenvolvimento e boas práticas de versionamento. Recentemente concluí a trilha
+        <strong>GitHub Foundations</strong> (Microsoft Learn) e apliquei o que aprendi diretamente
+        neste repositório: commits organizados, uma branch separada e um pull request mesclado
+        de volta à <code>main</code>.
+      </p>
+      <p>
+        Gosto de entender como as coisas funcionam por baixo do capô — seja um script em Python,
+        um layout em CSS ou o próprio fluxo de trabalho do Git.
+      </p>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="branch" id="skills">
+    <div class="branch-label">
+      <span class="branch-dot"></span>
+      <span>branch: skills</span>
+    </div>
+    <div class="branch-body">
+      <h2>Tecnologias</h2>
+      <ul class="skills-grid">
+        <li class="skill-card">
+          <span class="skill-name">Python</span>
+          <span class="skill-note">lógica, automação, scripts</span>
+        </li>
+        <li class="skill-card">
+          <span class="skill-name">Git</span>
+          <span class="skill-note">commits, branches, merge</span>
+        </li>
+        <li class="skill-card">
+          <span class="skill-name">GitHub</span>
+          <span class="skill-note">repositórios, pull requests</span>
+        </li>
+        <li class="skill-card">
+          <span class="skill-name">HTML</span>
+          <span class="skill-note">estrutura e semântica</span>
+        </li>
+        <li class="skill-card">
+          <span class="skill-name">CSS</span>
+          <span class="skill-note">layout e estilo</span>
+        </li>
+        <li class="skill-card">
+          <span class="skill-name">JavaScript</span>
+          <span class="skill-note">interação e comportamento</span>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- PROJETOS -->
+  <section class="branch" id="projetos">
+    <div class="branch-label">
+      <span class="branch-dot"></span>
+      <span>branch: projetos</span>
+    </div>
+    <div class="branch-body">
+      <h2>Projetos</h2>
+      <div class="commit-list">
+
+        <article class="commit">
+          <div class="commit-hash">a1b2c3d</div>
+          <div class="commit-content">
+            <h3>Este portfólio</h3>
+            <p>Página construída em HTML, CSS e JavaScript puros, versionada com Git como
+              aplicação prática da trilha GitHub Foundations.</p>
+            <div class="commit-tags"><span>HTML</span><span>CSS</span><span>JS</span></div>
+          </div>
+        </article>
+
+        <article class="commit">
+          <div class="commit-hash">e4f5g6h</div>
+          <div class="commit-content">
+            <h3>Seu próximo projeto aqui</h3>
+            <p>Substitua este card por um projeto real — pessoal, acadêmico ou de estudo —
+              com uma breve descrição do que ele faz e por quê.</p>
+            <div class="commit-tags"><span>Python</span></div>
+          </div>
+        </article>
+
+        <article class="commit">
+          <div class="commit-hash">i7j8k9l</div>
+          <div class="commit-content">
+            <h3>Mais um espaço livre</h3>
+            <p>Use este terceiro card para o próximo estudo ou repositório que você quiser
+              destacar no seu portfólio.</p>
+            <div class="commit-tags"><span>Git</span></div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTATO -->
+  <section class="branch" id="contato">
+    <div class="branch-label">
+      <span class="branch-dot"></span>
+      <span>branch: contato</span>
+    </div>
+    <div class="branch-body">
+      <h2>Vamos conversar</h2>
+      <p>O melhor lugar para me encontrar é o LinkedIn.</p>
+      <a class="btn btn-primary" href="https://www.linkedin.com/in/braiandev/" target="_blank" rel="noopener">
+        linkedin.com/in/braiandev ↗
+      </a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <p>construído por Braian de Freitas Neima · versionado com Git</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
